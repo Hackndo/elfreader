@@ -4,7 +4,7 @@ Elf reader written in C++
 Sample
 
 ```
-r$ ./reader -e print
+$ ./reader -e binary
 
 ********************************************************************************
 *                                ELF HEADER                                    *
@@ -29,7 +29,7 @@ Section Header	= 0x0000114c
 
 File flags 	= 0x00000000
 
-$ ./reader -p print
+$ ./reader -p binary
 
 ********************************************************************************
 *                                 SEGMENTS                                     *
@@ -48,7 +48,7 @@ $ ./reader -p print
  007 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000   16 UNKNOWN	
  008 0x00000f08 0x08049f08 0x08049f08 0x000000f8 0x000000f8    1 UNKNOWN	
  
- $ ./reader -s print
+ $ ./reader -s binary
 
 ********************************************************************************
 *                                 SECTIONS                                     *
